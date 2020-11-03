@@ -1,0 +1,27 @@
+// extend for JavaFX (id 'application' and id 'org.openjfx...)
+plugins {
+    id 'java'
+    id 'application'
+    // added line for JavaFX, apply the plugin
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+// added line for JavaFX
+mainClassName = "$moduleName/dev.scheel.MainApp"
+
+group 'dev.scheel'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// added lines for JavaFX, Specify JavaFX version and specify JavaFX modules
+javafx {
+    version = "11.0.2"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
