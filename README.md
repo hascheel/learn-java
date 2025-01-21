@@ -1,16 +1,20 @@
 # Learn Java
 
-A library with project-templates, examples and exercises for an in Java.
+A library with project-templates, examples and exercises in Java. For learn purposes.
 
-## Things I use
+#### Things I use
 - IntelliJ
 - Eclipse
-- Java 11 LTE
-- JavaFX 11
+- JavaFX
 
-# JavaFX
+## Table of contents
+- [JavaFX](#JavaFX)
+    - [JavaFX with Gradle](#JavaFX-with-Gradle)
+- [VSCode](#VSCode)
 
-## JavaFX with Gradle
+## JavaFX
+
+### JavaFX with Gradle
 
 >If you use Gradle your project is portable and doesn't dependent on rigidly set paths.
 
@@ -24,6 +28,14 @@ If you want to set up a new project with JavaFX it is more easier to use Intelli
 - [official OpenJFX tutorial](https://openjfx.io/openjfx-docs/#maven)
 - [official OpenJFX tutorial - GitHub with examples for Gradle](https://github.com/openjfx/samples/tree/master/IDE/IntelliJ/Modular/Gradle)
 - [German: Michael Kofler Blog - JavaFX-Programm mit Gradle](https://kofler.info/javafx-programm-mit-gradle/)
+
+## VSCode
+- https://code.visualstudio.com/docs/editor/codebasics
+- https://code.visualstudio.com/docs/languages/java
+- https://code.visualstudio.com/docs/java/java-tutorial
+
+VSCode: tips for beginners
+- Open the Command Palette (Ctrl+Shift+P) and type "java tips" to select the command.
 
 # License
 
